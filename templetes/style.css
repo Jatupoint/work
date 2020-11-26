@@ -1,0 +1,239 @@
+#bgnamehome{
+    margin:auto;
+    background-color:  #8fb0a9;
+    width: 100%;
+    height:52px;
+    color:white;
+    text-align:center;
+	font-size:30px;
+    font-weight:400px;
+    padding-top:-5px;
+    padding-left:50px;
+}
+#bgnamestudent{
+    margin:auto;
+    background-color: #f4c464;
+    width: 100%;
+    height:52px;
+    color:white;
+    text-align:center;
+	font-size:30px;
+    font-weight:400px;
+    padding-top:-5px;
+}
+#bgnameteacher{
+    margin:auto;
+    background-color: #8cc1d3;
+    width: 100%;
+    height:52px;
+    color:white;
+    text-align:center;
+	font-size:30px;
+    font-weight:400px;
+    padding-top:-5px;
+
+
+}
+#sidebar_home{
+    margin:0px;
+    background-color: #345758;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+
+#sidebar_homestudent{
+    margin:0px;
+    background-color: #ffa264;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+
+#sidebar_hometeacher{
+    margin:0px;
+    background-color: #8cc1d3;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+#sidebar_signin{
+    margin:0px;
+    background-color: #345758;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+#sidebar_signoutteacher{
+    margin:0px;
+    background-color: #0c8ea8;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+#sidebar_signoutstudent{
+    margin:0px;
+    background-color:#ffa264;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+
+#signin{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    column-gap: 200px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    column-rule-style: solid;
+    padding-top:200px;
+
+
+}
+
+#bgnameregis{
+    margin:auto;
+    background-color:#CC0033		;
+    width: 100%;
+    height:52px;
+    color:white;
+    text-align:center;
+	font-size:30px;
+    font-weight:400px;
+    padding-top:-5px;
+}
+
+#sidebar_homeregis{
+    margin:0px;
+    background-color: #CC3366	;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+
+#sidebar_signinregis{
+    margin:0px;
+    background-color:#CC3366	;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+
+#sidebar_createclass{
+    margin:0px;
+    background-color: #0c8ea8;
+    width: 100%;
+    background-origin:50px;
+    color:white;
+    text-align:center;
+    font-size:20px;
+    height:50px;
+}
+
+/* regisclass */
+.overlay {
+   
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .home-info {
+    margin-top: 7em;
+  }
+
+  .online-form {
+    position: relative;
+  }
+
+  a,
+  input, button,
+  .form-control {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  .online-form .form-control {
+    border-color: #f0f0f0;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50px;
+    box-shadow: none;
+    height: 50px;
+    margin-right: 0.5em;
+    padding-left: 15px;
+  }
+  #contact-form .form-control {
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid #f0f0f0;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 10px 0;
+  }
+  #contact-form .form-control:focus {
+    border-bottom-color: #202020;
+  }
+
+  .online-form input[type="email"] {
+    width: 60%;
+  }
+  .online-form button {
+    background: #29ca8e;
+    border: 0;
+    color: #ffffff;
+    position: absolute;
+    right: 6em;
+    width: 25%;
+  }
+  .online-form button:hover {
+    background: #202020;
+    color: #ffffff;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .online-form input[type="email"],
+    .online-form .form-control {
+      width: 85%;
+    }
+
+    .online-form .form-control {
+        display: block;
+        margin: 20px auto;
+      }
+
+      .online-form button {
+        position: relative;
+        right: 0;
+      }
+    }

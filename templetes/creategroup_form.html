@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block content %}
+<form action="CreateGroup" method="POST">
+    {% csrf_token %}
+    <div class="from-group">
+        <label for="">รหัสอาจารย์</label>
+        <input type="text" class="form-control" name="username">
+        <label for="">รหัสกลุ่ม</label>
+        <input type="text" class="form-control" name="code">
+    </div>
+        <input type="submit" value="สมัครสมาชิก">=
+        <input type="submit" value="ยกเลิก">
+</form>
+{% endblock %}
